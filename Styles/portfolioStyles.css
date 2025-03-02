@@ -1,0 +1,57 @@
+
+
+
+
+nav{
+    border-radius: 5px;
+}
+.lefooter{
+	
+	text-align: left;
+	/*background-color:#fdfbf8;*/
+	font-size:28px;
+	height: 30px;
+	align-content: center;
+	
+}
+.lefooter a{
+	color: coral;
+}
+
+.lefooterIcons a{
+    color:coral;
+    font-family:monospace;
+
+    /*font-size: 0.755rem;*/
+    font-size: 36px;
+    font-weight: 400;
+}
+.lefooter p{
+    color:coral;
+    font-family:monospace;
+
+    /*font-size: 0.755rem;*/
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.0;
+}
+.iconImg{
+	max-height: 40px;
+	height:auto;
+	float:left;
+	
+}
+.topcards{
+	padding-top: 0px;
+	
+}
+
+video{
+    width:600px;
+    height:auto;
+}
+
+.index-img{
+    opacity: 0.65;
+  filter: alpha(opacity=50); /* For IE8 and earlier */ 
+}
