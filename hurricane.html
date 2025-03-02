@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link href="styles/fontawesome/css/all.css" rel="stylesheet">
+        <link type="text/css"  href="styles/bootstrapLight.css" rel="stylesheet">
+        <link type="text/css"  href="styles/portfolioStyles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">        
+        <title>Hurricane info</title>
+    </head>
+    <body>
+         
+   
+        
+        <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        
+                        <a class="nav-link" href="index.html">Portfolio <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        Python Visualizations</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="opioid.html">Opioid deaths</a>
+                          <a class="dropdown-item" href="latitude.html">Latitude vs x</a>
+                          <a class="dropdown-item" href="tumor.html">Medication Efficiency</a>        
+                          <!--
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Separated link</a>-->
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">WEB Visualizations</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="mars.html">Web Scraping</a>
+                            <a class="dropdown-item " href="dashboard.html">Dashboard</a>
+                            <a class="dropdown-item " href="census.html">Census Data</a>
+                            <a class="dropdown-item " href="earthquakes.html">Earthquakes</a>
+                            <a class="dropdown-item disabled" href="hurricane.html">Hurricane</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ETL</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="https://github.com/hvannia/ETL_pt">US Mortality (git)</a>
+                            </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tableau</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item " href="tableau.html">City Bike</a>
+                            </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ML</a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item " href="ml_emnist.html">EMNIST</a>
+                                </div>
+                                </li>
+                      <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Me</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="bio.html">bio</a>
+                              <a class="dropdown-item" href="https://github.com/hvannia">GitHub</a>
+                              <a class="dropdown-item" href="https://www.linkedin.com/in/hvannia">LinkedIn</a>
+                              <a class="dropdown-item" href="mailto:hvannia@gmail.com">Email</a>
+                              <!--
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Separated link</a>-->
+                            </div>
+                          </li>
+    
+    
+                    
+                    </ul>
+                </div>
+                </nav>
+
+
+            <div class="row" style="padding-top: 20px;"></div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <h4>Pick-a-hurricane</h4>
+                    <p>
+                            Select a Hurricane from the Timeline, once selected information about the event will be displayed.</p>
+                            <p>Timeline includes Hurricanes and Typhoons from 1851 to 2014 </p>
+                            <p>Windspeed and path is displayed for each event selected. </p>
+<br />
+<p><strong> This project was made with :</strong> Python (Flask, SQLAlchemy ) <br /> HTML, CSS, JavaScript ( Leaflet, Timeline, Plotly, Moment ) </p>
+    <p><strong>Data :</strong> Generated GeoJson, Json, csv (Kaggle), SqlLite</p>
+       <p> <strong>Tools:</strong>  Git.</p>
+        <p class="border border-info">
+                <a  href="https://github.com/hvannia/aHurricane">This project on github</a>
+        </p>
+       
+       
+        <p class="border border-info">
+                <a  href="https://pickahurricane.herokuapp.com/">This project live</a>
+        </p>
+            </div>
+             <div class="col-lg-9">
+                <img src="Images/hurricane_timeline.png" alt="hurricane timeline" class="img-fluid"> 
+                <img src="Images/hurricane_winds.png" alt="hurricane winds plot" class="img-fluid">
+            </div>
+        </div><!-- row-->
+         <div class="row">
+             <div class="col-12">
+                 <img src="Images/hurricane_path.png" alt="hurricane path" class="img-fluid">
+             </div>
+         </div> 
+
+
+             
+            </div><!-- container-->
+
+
+     
+              <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        </body>
+
+    </html>
